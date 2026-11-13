@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "width": 64,
+      "parameters": 4832705,
+      "gpu": "NVIDIA L40S",
+      "geometry_pct": 24.22496709469748,
+      "reachable_pct": 4.5870531823229515,
+      "selection_metric": 0.03218697716052296,
+      "optimizer_minutes": 25.485141883058045,
+      "geometry_relative_reduction_pct": 0.0,
+      "reachable_relative_reduction_pct": 0.0
+    },
+    {
+      "width": 96,
+      "parameters": 10870945,
+      "gpu": "NVIDIA A40",
+      "geometry_pct": 23.658174628854265,
+      "reachable_pct": 4.1302966228624,
+      "selection_metric": 0.030625755617601343,
+      "optimizer_minutes": 63.70624690686624,
+      "geometry_relative_reduction_pct": 2.339703759462597,
+      "reachable_relative_reduction_pct": 9.9575161068711
+    },
+    {
+      "width": 128,
+      "parameters": 19323777,
+      "gpu": "NVIDIA L40S",
+      "geometry_pct": 23.415409049334134,
+      "reachable_pct": 3.9632546103858206,
+      "selection_metric": 0.029965148176879956,
+      "optimizer_minutes": 76.14354452120703,
+      "geometry_relative_reduction_pct": 3.341833415908113,
+      "reachable_relative_reduction_pct": 13.599113573416865
+    }
+  ]
+}

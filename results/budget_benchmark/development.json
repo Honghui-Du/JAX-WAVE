@@ -1,0 +1,366 @@
+{
+  "scope": "Development only; four paired cases per cell,20cells. Homogeneous group shares same material; no population proof.",
+  "comparison": "FISTA4 vs direct NN are close but not identical latency; list exact medians. First sampled crossing is not an exact speedup estimate.",
+  "rows": [
+    {
+      "group": 0,
+      "contrast": 1.0,
+      "target_type": "geometry_broad",
+      "neural_error_percent": 15.837480525707742,
+      "neural_median_ms": 4.434091999428347,
+      "fista4_error_percent": 36.266963732685184,
+      "fista4_median_ms": 4.864222995820455,
+      "relative_error_reduction_percent": 56.330834192677685,
+      "paired_neural_wins_over_fista4": 4,
+      "reference_error_percent": 8.807405264003314,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "fista",
+        "steps": 16,
+        "error_percent": 12.358238670933796,
+        "median_ms": 18.455575002008118
+      }
+    },
+    {
+      "group": 1,
+      "contrast": 1.0,
+      "target_type": "geometry_fine",
+      "neural_error_percent": 40.34340468737072,
+      "neural_median_ms": 4.431221997947432,
+      "fista4_error_percent": 39.08183533888139,
+      "fista4_median_ms": 4.768741491716355,
+      "relative_error_reduction_percent": -3.228019711843566,
+      "paired_neural_wins_over_fista4": 1,
+      "reference_error_percent": 7.348334045238797,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "fista",
+        "steps": 4,
+        "error_percent": 39.08183533888139,
+        "median_ms": 4.768741491716355
+      }
+    },
+    {
+      "group": 2,
+      "contrast": 1.0,
+      "target_type": "reachable_k2",
+      "neural_error_percent": 2.409254596479724,
+      "neural_median_ms": 4.425491497386247,
+      "fista4_error_percent": 45.45727665563384,
+      "fista4_median_ms": 4.773715496412478,
+      "relative_error_reduction_percent": 94.69995834829422,
+      "paired_neural_wins_over_fista4": 4,
+      "reference_error_percent": 0.3370237023125021,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "restarted_fista",
+        "steps": 32,
+        "error_percent": 0.7742612968662929,
+        "median_ms": 37.07322449190542
+      }
+    },
+    {
+      "group": 3,
+      "contrast": 1.0,
+      "target_type": "reachable_k8",
+      "neural_error_percent": 7.218240903595993,
+      "neural_median_ms": 4.429679014720023,
+      "fista4_error_percent": 16.485767537414002,
+      "fista4_median_ms": 4.744351012050174,
+      "relative_error_reduction_percent": 56.21531792672443,
+      "paired_neural_wins_over_fista4": 4,
+      "reference_error_percent": 0.10413610169186492,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "restarted_fista",
+        "steps": 16,
+        "error_percent": 2.1319890780405224,
+        "median_ms": 18.427127492032014
+      }
+    },
+    {
+      "group": 4,
+      "contrast": 1.0,
+      "target_type": "reachable_k16",
+      "neural_error_percent": 16.848730187965913,
+      "neural_median_ms": 4.4364264904288575,
+      "fista4_error_percent": 13.487506733201634,
+      "fista4_median_ms": 4.725421502371319,
+      "relative_error_reduction_percent": -24.92101410033105,
+      "paired_neural_wins_over_fista4": 0,
+      "reference_error_percent": 0.13024861225206102,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 4,
+        "error_percent": 15.844141480766085,
+        "median_ms": 4.682213009800762
+      }
+    },
+    {
+      "group": 5,
+      "contrast": 1.5,
+      "target_type": "geometry_broad",
+      "neural_error_percent": 30.86583496847587,
+      "neural_median_ms": 4.432644505868666,
+      "fista4_error_percent": 41.07693365942479,
+      "fista4_median_ms": 4.929739501676522,
+      "relative_error_reduction_percent": 24.858473555038753,
+      "paired_neural_wins_over_fista4": 3,
+      "reference_error_percent": 17.78726371558228,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "fista",
+        "steps": 16,
+        "error_percent": 25.08976787857888,
+        "median_ms": 18.65054600057192
+      }
+    },
+    {
+      "group": 6,
+      "contrast": 1.5,
+      "target_type": "geometry_fine",
+      "neural_error_percent": 50.142273727490775,
+      "neural_median_ms": 4.422956000780687,
+      "fista4_error_percent": 39.39437400043815,
+      "fista4_median_ms": 4.936457000439987,
+      "relative_error_reduction_percent": -27.28282908349573,
+      "paired_neural_wins_over_fista4": 0,
+      "reference_error_percent": 9.8007679632737,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 4,
+        "error_percent": 40.84914694949621,
+        "median_ms": 4.712804482551292
+      }
+    },
+    {
+      "group": 7,
+      "contrast": 1.5,
+      "target_type": "reachable_k2",
+      "neural_error_percent": 9.994083357194429,
+      "neural_median_ms": 4.4256459950702265,
+      "fista4_error_percent": 25.461017742128007,
+      "fista4_median_ms": 4.719926510006189,
+      "relative_error_reduction_percent": 60.74751033750652,
+      "paired_neural_wins_over_fista4": 4,
+      "reference_error_percent": 0.5682143079875078,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "fista",
+        "steps": 16,
+        "error_percent": 6.334643557110847,
+        "median_ms": 18.64543600822799
+      }
+    },
+    {
+      "group": 8,
+      "contrast": 1.5,
+      "target_type": "reachable_k8",
+      "neural_error_percent": 9.57268234195623,
+      "neural_median_ms": 4.432253990671597,
+      "fista4_error_percent": 17.806482423281746,
+      "fista4_median_ms": 4.958738005370833,
+      "relative_error_reduction_percent": 46.24046392542937,
+      "paired_neural_wins_over_fista4": 4,
+      "reference_error_percent": 0.23398139323257405,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 16,
+        "error_percent": 8.206673888708558,
+        "median_ms": 18.423458008328453
+      }
+    },
+    {
+      "group": 9,
+      "contrast": 1.5,
+      "target_type": "reachable_k16",
+      "neural_error_percent": 19.608626498925165,
+      "neural_median_ms": 4.433616006281227,
+      "fista4_error_percent": 16.82839180717652,
+      "fista4_median_ms": 4.965055006323382,
+      "relative_error_reduction_percent": -16.52109556043857,
+      "paired_neural_wins_over_fista4": 1,
+      "reference_error_percent": 0.2729140994136317,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 4,
+        "error_percent": 18.951589340373637,
+        "median_ms": 4.703682512626983
+      }
+    },
+    {
+      "group": 10,
+      "contrast": 2.1,
+      "target_type": "geometry_broad",
+      "neural_error_percent": 28.09855019804782,
+      "neural_median_ms": 4.441269993549213,
+      "fista4_error_percent": 43.102894330000765,
+      "fista4_median_ms": 5.131818004883826,
+      "relative_error_reduction_percent": 34.81052575513361,
+      "paired_neural_wins_over_fista4": 4,
+      "reference_error_percent": 10.368266844465284,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "fista",
+        "steps": 16,
+        "error_percent": 21.978298783482597,
+        "median_ms": 18.85332597885281
+      }
+    },
+    {
+      "group": 11,
+      "contrast": 2.1,
+      "target_type": "geometry_fine",
+      "neural_error_percent": 50.26151433124188,
+      "neural_median_ms": 4.417340998770669,
+      "fista4_error_percent": 42.03632108962474,
+      "fista4_median_ms": 5.184055480640382,
+      "relative_error_reduction_percent": -19.566872239081956,
+      "paired_neural_wins_over_fista4": 1,
+      "reference_error_percent": 7.9212326256523635,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 4,
+        "error_percent": 44.753022993984146,
+        "median_ms": 5.114361993037164
+      }
+    },
+    {
+      "group": 12,
+      "contrast": 2.1,
+      "target_type": "reachable_k2",
+      "neural_error_percent": 18.134039387169278,
+      "neural_median_ms": 4.4228265032870695,
+      "fista4_error_percent": 26.250618209689897,
+      "fista4_median_ms": 5.178599996725097,
+      "relative_error_reduction_percent": 30.91957209420899,
+      "paired_neural_wins_over_fista4": 4,
+      "reference_error_percent": 0.19184133070698767,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "restarted_fista",
+        "steps": 8,
+        "error_percent": 15.121208137533865,
+        "median_ms": 9.71349400060717
+      }
+    },
+    {
+      "group": 13,
+      "contrast": 2.1,
+      "target_type": "reachable_k8",
+      "neural_error_percent": 16.259452635756784,
+      "neural_median_ms": 4.473074513953179,
+      "fista4_error_percent": 27.217029888237843,
+      "fista4_median_ms": 5.131277997861616,
+      "relative_error_reduction_percent": 40.26000374573019,
+      "paired_neural_wins_over_fista4": 4,
+      "reference_error_percent": 0.2713597289989695,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "fista",
+        "steps": 8,
+        "error_percent": 14.863837745523274,
+        "median_ms": 9.694899505120702
+      }
+    },
+    {
+      "group": 14,
+      "contrast": 2.1,
+      "target_type": "reachable_k16",
+      "neural_error_percent": 23.50250224240762,
+      "neural_median_ms": 4.302147994167171,
+      "fista4_error_percent": 23.74691654032658,
+      "fista4_median_ms": 5.140003500855528,
+      "relative_error_reduction_percent": 1.0292464602884355,
+      "paired_neural_wins_over_fista4": 2,
+      "reference_error_percent": 0.2288915285784886,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 8,
+        "error_percent": 16.98156725345774,
+        "median_ms": 9.653570494265296
+      }
+    },
+    {
+      "group": 15,
+      "contrast": 3.0,
+      "target_type": "geometry_broad",
+      "neural_error_percent": 54.92872607808022,
+      "neural_median_ms": 4.451724496902898,
+      "fista4_error_percent": 50.11826256501969,
+      "fista4_median_ms": 5.382322502555326,
+      "relative_error_reduction_percent": -9.598224812402044,
+      "paired_neural_wins_over_fista4": 2,
+      "reference_error_percent": 15.402374415913306,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 4,
+        "error_percent": 52.69197090787367,
+        "median_ms": 5.302039484377019
+      }
+    },
+    {
+      "group": 16,
+      "contrast": 3.0,
+      "target_type": "geometry_fine",
+      "neural_error_percent": 83.05501508022711,
+      "neural_median_ms": 4.514340500463732,
+      "fista4_error_percent": 47.32415322933211,
+      "fista4_median_ms": 5.35268199746497,
+      "relative_error_reduction_percent": -75.50237967860471,
+      "paired_neural_wins_over_fista4": 0,
+      "reference_error_percent": 8.562322488802437,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 4,
+        "error_percent": 50.15332623205075,
+        "median_ms": 5.322686993167736
+      }
+    },
+    {
+      "group": 17,
+      "contrast": 3.0,
+      "target_type": "reachable_k2",
+      "neural_error_percent": 30.98668455953442,
+      "neural_median_ms": 4.482531992834993,
+      "fista4_error_percent": 34.1319061320955,
+      "fista4_median_ms": 5.333180990419351,
+      "relative_error_reduction_percent": 9.214901624270876,
+      "paired_neural_wins_over_fista4": 3,
+      "reference_error_percent": 0.2204303572686527,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 8,
+        "error_percent": 24.741488781243774,
+        "median_ms": 9.872608003206551
+      }
+    },
+    {
+      "group": 18,
+      "contrast": 3.0,
+      "target_type": "reachable_k8",
+      "neural_error_percent": 51.65944269704663,
+      "neural_median_ms": 4.466066005988978,
+      "fista4_error_percent": 34.5952367739404,
+      "fista4_median_ms": 5.351770494598895,
+      "relative_error_reduction_percent": -49.3253046210113,
+      "paired_neural_wins_over_fista4": 0,
+      "reference_error_percent": 0.33563477134151454,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 4,
+        "error_percent": 38.55975333740283,
+        "median_ms": 5.327285485691391
+      }
+    },
+    {
+      "group": 19,
+      "contrast": 3.0,
+      "target_type": "reachable_k16",
+      "neural_error_percent": 54.32382176776552,
+      "neural_median_ms": 4.455777510884218,
+      "fista4_error_percent": 32.06675668511809,
+      "fista4_median_ms": 5.515688986633904,
+      "relative_error_reduction_percent": -69.40853202337347,
+      "paired_neural_wins_over_fista4": 0,
+      "reference_error_percent": 0.29421260789222936,
+      "first_sampled_numeric_reaching_neural": {
+        "method": "projected_gradient",
+        "steps": 4,
+        "error_percent": 37.00687128444362,
+        "median_ms": 5.371462000766769
+      }
+    }
+  ]
+}

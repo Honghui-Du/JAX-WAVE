@@ -1,0 +1,12 @@
+{
+  "cases.json": "52b2dfbe417f10b439fe74f93b8dc91516989bc2a4da60c37c7e66824e466a01",
+  "development.json": "2f893c8057d00e47fef9f7b9f5a9638c4b18c191a164f7b62acf1b4fe3608b1e",
+  "field_examples.json": "ea3f8c85617f5ad33d4d287cbdb7efa133f8cf27bd6f93091383177e1e013766",
+  "homogeneous_modes.json": "8f76f25de5677b01c99a1a989087ec69c8f1e4e9c5096e81c99ce09bca27713b",
+  "latency_selection.json": "94813a887b7c62ef411c0aa9912225c21051fb1b21d15a20890378b0739331e3",
+  "measurements.json": "c05d8a067ca72510a20faedffe1371ebc9134e9e8d5770e3bd90c6daad9b7d46",
+  "protocol.json": "45cadf1378cf9b6425f2ab59ed1dd19f5b3bd5f359da9c22e82e1c62eec071f2",
+  "regime_results.csv": "df6545ea715d1802ac55945d813cdfdda2f11aeb58a000b30e66575bc798c60d",
+  "representative_fields.npz": "927847aa698d40295c26da46540c24234bb50d5af601f5b5bbf996365be54ebe",
+  "statistics.json": "988f1d010bb1adacb3c85366feaf70f8a0e5f4ecf01dc02dd6a1f84968fb8f8b"
+}

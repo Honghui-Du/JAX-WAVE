@@ -1,0 +1,229 @@
+{
+  "scope": "Descriptive leave-one-cluster-out sensitivity of existing 5 ms errors. Fixed solver iteration choices and three-seed predictions; six conditions removed together; material-family weights remain 1/2 each. No new independent cases, confidence interval or latency reselection.",
+  "case_csv_sha256": "a1dba359ef9c30b2f40ff591ac3a6e3af8d0b3c8e172b7f1b52e94e0f0f94adf",
+  "comparisons": {
+    "projected_gradient": {
+      "full_relative_reduction_percent": 48.526193127428975,
+      "loco_range_percent": [
+        47.341760165059114,
+        49.6619762466314
+      ],
+      "all_deletions_positive": true,
+      "deletions": [
+        {
+          "omitted_descriptor": 0,
+          "relative_reduction_percent": 48.53018090291533
+        },
+        {
+          "omitted_descriptor": 1,
+          "relative_reduction_percent": 48.246185993007295
+        },
+        {
+          "omitted_descriptor": 2,
+          "relative_reduction_percent": 49.36788726967784
+        },
+        {
+          "omitted_descriptor": 3,
+          "relative_reduction_percent": 47.86122150938527
+        },
+        {
+          "omitted_descriptor": 4,
+          "relative_reduction_percent": 48.699113101378266
+        },
+        {
+          "omitted_descriptor": 5,
+          "relative_reduction_percent": 49.278188902080466
+        },
+        {
+          "omitted_descriptor": 6,
+          "relative_reduction_percent": 47.58183778225511
+        },
+        {
+          "omitted_descriptor": 7,
+          "relative_reduction_percent": 49.6619762466314
+        },
+        {
+          "omitted_descriptor": 8,
+          "relative_reduction_percent": 48.817193510302545
+        },
+        {
+          "omitted_descriptor": 9,
+          "relative_reduction_percent": 48.49010425267913
+        },
+        {
+          "omitted_descriptor": 10,
+          "relative_reduction_percent": 49.03663060703175
+        },
+        {
+          "omitted_descriptor": 11,
+          "relative_reduction_percent": 48.035794059776094
+        },
+        {
+          "omitted_descriptor": 12,
+          "relative_reduction_percent": 48.77809577730472
+        },
+        {
+          "omitted_descriptor": 13,
+          "relative_reduction_percent": 48.37535467363533
+        },
+        {
+          "omitted_descriptor": 14,
+          "relative_reduction_percent": 47.341760165059114
+        },
+        {
+          "omitted_descriptor": 15,
+          "relative_reduction_percent": 48.28057861362832
+        }
+      ]
+    },
+    "fista": {
+      "full_relative_reduction_percent": 45.017538287254446,
+      "loco_range_percent": [
+        43.6354127435506,
+        46.229057094673145
+      ],
+      "all_deletions_positive": true,
+      "deletions": [
+        {
+          "omitted_descriptor": 0,
+          "relative_reduction_percent": 45.03129908889969
+        },
+        {
+          "omitted_descriptor": 1,
+          "relative_reduction_percent": 44.70280453753004
+        },
+        {
+          "omitted_descriptor": 2,
+          "relative_reduction_percent": 45.948086374329996
+        },
+        {
+          "omitted_descriptor": 3,
+          "relative_reduction_percent": 44.36764593533472
+        },
+        {
+          "omitted_descriptor": 4,
+          "relative_reduction_percent": 45.22472802300184
+        },
+        {
+          "omitted_descriptor": 5,
+          "relative_reduction_percent": 45.7795241164543
+        },
+        {
+          "omitted_descriptor": 6,
+          "relative_reduction_percent": 44.010830925288836
+        },
+        {
+          "omitted_descriptor": 7,
+          "relative_reduction_percent": 46.229057094673145
+        },
+        {
+          "omitted_descriptor": 8,
+          "relative_reduction_percent": 45.39727450479161
+        },
+        {
+          "omitted_descriptor": 9,
+          "relative_reduction_percent": 44.93783316823615
+        },
+        {
+          "omitted_descriptor": 10,
+          "relative_reduction_percent": 45.54029303077905
+        },
+        {
+          "omitted_descriptor": 11,
+          "relative_reduction_percent": 44.51304685162659
+        },
+        {
+          "omitted_descriptor": 12,
+          "relative_reduction_percent": 45.28411994455628
+        },
+        {
+          "omitted_descriptor": 13,
+          "relative_reduction_percent": 44.84135190887781
+        },
+        {
+          "omitted_descriptor": 14,
+          "relative_reduction_percent": 43.6354127435506
+        },
+        {
+          "omitted_descriptor": 15,
+          "relative_reduction_percent": 44.79055196841977
+        }
+      ]
+    },
+    "restarted_fista": {
+      "full_relative_reduction_percent": 45.017538287254446,
+      "loco_range_percent": [
+        43.6354127435506,
+        46.229057094673145
+      ],
+      "all_deletions_positive": true,
+      "deletions": [
+        {
+          "omitted_descriptor": 0,
+          "relative_reduction_percent": 45.03129908889969
+        },
+        {
+          "omitted_descriptor": 1,
+          "relative_reduction_percent": 44.70280453753004
+        },
+        {
+          "omitted_descriptor": 2,
+          "relative_reduction_percent": 45.948086374329996
+        },
+        {
+          "omitted_descriptor": 3,
+          "relative_reduction_percent": 44.36764593533472
+        },
+        {
+          "omitted_descriptor": 4,
+          "relative_reduction_percent": 45.22472802300184
+        },
+        {
+          "omitted_descriptor": 5,
+          "relative_reduction_percent": 45.7795241164543
+        },
+        {
+          "omitted_descriptor": 6,
+          "relative_reduction_percent": 44.010830925288836
+        },
+        {
+          "omitted_descriptor": 7,
+          "relative_reduction_percent": 46.229057094673145
+        },
+        {
+          "omitted_descriptor": 8,
+          "relative_reduction_percent": 45.39727450479161
+        },
+        {
+          "omitted_descriptor": 9,
+          "relative_reduction_percent": 44.93783316823615
+        },
+        {
+          "omitted_descriptor": 10,
+          "relative_reduction_percent": 45.54029303077905
+        },
+        {
+          "omitted_descriptor": 11,
+          "relative_reduction_percent": 44.51304685162659
+        },
+        {
+          "omitted_descriptor": 12,
+          "relative_reduction_percent": 45.28411994455628
+        },
+        {
+          "omitted_descriptor": 13,
+          "relative_reduction_percent": 44.84135190887781
+        },
+        {
+          "omitted_descriptor": 14,
+          "relative_reduction_percent": 43.6354127435506
+        },
+        {
+          "omitted_descriptor": 15,
+          "relative_reduction_percent": 44.79055196841977
+        }
+      ]
+    }
+  },
+  "checks_passed": true
+}

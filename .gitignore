@@ -1,0 +1,12 @@
+artifacts/
+outputs/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.log
+*.zip
+/journal/
+/paper/
+/code/
+/arxiv/

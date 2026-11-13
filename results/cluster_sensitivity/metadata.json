@@ -1,0 +1,8 @@
+{
+  "case_csv_sha256": "a1dba359ef9c30b2f40ff591ac3a6e3af8d0b3c8e172b7f1b52e94e0f0f94adf",
+  "published_reductions": {
+    "projected_gradient": 48.52619312742898,
+    "fista": 45.01753828725445,
+    "restarted_fista": 45.01753828725445
+  }
+}

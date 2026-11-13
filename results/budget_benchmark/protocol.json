@@ -1,0 +1,80 @@
+{
+  "physics": {
+    "n": 64,
+    "T": 0.2,
+    "steps": 160,
+    "lambda": 0.0002,
+    "box": [
+      -1,
+      1
+    ]
+  },
+  "contrast": [
+    1.0,
+    1.5,
+    2.1
+  ],
+  "target_types": [
+    "geometry_broad",
+    "reachable_k2",
+    "reachable_k8"
+  ],
+  "replicates_per_cell": 16,
+  "count": 144,
+  "material_seed_base": 2026112901,
+  "target_seed_base": 2026113901,
+  "network_seeds": [
+    0,
+    1,
+    2
+  ],
+  "baselines": [
+    "projected_gradient",
+    "fista",
+    "restarted_fista"
+  ],
+  "numeric_iterations": [
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    24,
+    32,
+    64,
+    256
+  ],
+  "methods": [
+    "neural_s0",
+    "neural_s1",
+    "neural_s2",
+    "projected_gradient",
+    "fista",
+    "restarted_fista",
+    "reference_fista"
+  ],
+  "milestones": [
+    0,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    24,
+    32,
+    64,
+    256
+  ],
+  "budgets_ms": [
+    5,
+    10,
+    20
+  ],
+  "bootstrap": {
+    "replicates": 20000,
+    "seed": 2026114001,
+    "unit": "descriptor ID, stratified by material family"
+  }
+}

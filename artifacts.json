@@ -1,0 +1,79 @@
+{
+  "folder_url": "https://drive.google.com/drive/folders/1YucW1H7JgKLcU9j8-GwHiVQ3OwmoBRg5",
+  "filename": "JAX-WAVE_reproduction_20261106.zip",
+  "bytes": 2393144142,
+  "sha256": "dcce1de0cac777ccb519ccc5c14a789282312d0dac29f0a13af7ef370e91b5b7",
+  "parts": [
+    {
+      "filename": "JAX-WAVE_reproduction_20261106.zip.part01",
+      "bytes": 503316480,
+      "sha256": "bde83069c7f8b98109ff39b64e184a6175e44f0fd4e4c3f42b6609ea95849de2",
+      "md5": "9499103e9f330f03778ad869428d2168"
+    },
+    {
+      "filename": "JAX-WAVE_reproduction_20261106.zip.part02",
+      "bytes": 503316480,
+      "sha256": "269303d04d67c5994f6191c5e5d63838bfbc58beb01aadddbf782f0d36f36b77",
+      "md5": "965cb4945c742ef75d882eb53e86a908"
+    },
+    {
+      "filename": "JAX-WAVE_reproduction_20261106.zip.part03",
+      "bytes": 503316480,
+      "sha256": "c3b4a6e554a69ae86e5d70103d9c3bb2ce6f6e4a92769afb047678b98c6b7815",
+      "md5": "f9317724b7c46896a8935725dc0d34a3"
+    },
+    {
+      "filename": "JAX-WAVE_reproduction_20261106.zip.part04a",
+      "bytes": 100663296,
+      "sha256": "8cb2b9f4f56f0cea21ec12cf5fb07e59a0b08a0a2aadf70a0a622bb894042dbb",
+      "md5": "66a8993898266c1b40691d976f6070f9"
+    },
+    {
+      "filename": "JAX-WAVE_reproduction_20261106.zip.part04b",
+      "bytes": 100663296,
+      "sha256": "628758a545bc0eb2ac8a2e7c4274bea8c6808f0ab17d0a0b8761ceec288b68d3",
+      "md5": "1976307fea6263a113d7bc90176bbba8"
+    },
+    {
+      "filename": "JAX-WAVE_reproduction_20261106.zip.part04c",
+      "bytes": 100663296,
+      "sha256": "103762c2977d2d18ff7abca4f08102c62287a13db114f2f86ebc6cd98edbedaf",
+      "md5": "983ed151183ed022de5373cec6802657"
+    },
+    {
+      "filename": "JAX-WAVE_reproduction_20261106.zip.part04d",
+      "bytes": 100663296,
+      "sha256": "09ba6216523caa16ac7cfe48103426cf53dba5e2c4638fd48468805ba5d9efea",
+      "md5": "f49baa930a5215eb124dd8767af6557c"
+    },
+    {
+      "filename": "JAX-WAVE_reproduction_20261106.zip.part04e",
+      "bytes": 100663296,
+      "sha256": "654c70457cf5cdf05aeab81eebffd6249d67b0dde10886da7c13ad9db71e95b8",
+      "md5": "0230ae9c953f32e3b2cba54190a79557"
+    },
+    {
+      "filename": "JAX-WAVE_reproduction_20261106.zip.part05",
+      "bytes": 379878222,
+      "sha256": "eaea0513f77a0f1ae3515fae884ce77498f3bcb4774d451b23fa2409b0ebb9cc",
+      "md5": "991acaa25a48894a76dea8e71b3815f6"
+    }
+  ],
+  "files": {
+    "train.npz": {
+      "sha256": "14c4413481cc68a99436c3aa7abb551d9768e67539a038a4c9dad005b7e1850c"
+    },
+    "validation.npz": {
+      "sha256": "89005c1bf57bc8f840362f7d18ad71cdec9aca5e581c1fd7f5669b54c5d52fa2"
+    },
+    "selected_seed0.msgpack": {
+      "sha256": "8c0aba4fc7db1bfa58b48e5787e8c92793345fd464fa42c19f9f5ef99d455edf"
+    },
+    "selected_seed1.msgpack": {
+      "sha256": "b8361b55d79885240c1046496bce15245416dd8b92e48a98ccbe21070aedf56a"
+    },
+    "selected_seed2.msgpack": {
+      "sha256": "8a65d4efa6d770e905497fd0d7fef66005242bfad194564c9af82963774f1df7"
+    }
+  }
+}

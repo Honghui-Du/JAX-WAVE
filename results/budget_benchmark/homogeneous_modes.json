@@ -1,0 +1,102 @@
+{
+  "scope": "Secondary explanation on homogeneous reachable_k2 held-out cases,16cases; no case selection within this stratum",
+  "transfer_formula": "a_kl=cos(M*acos(1-dt^2*omega_kl^2/2)); omega_kl^2=4(n+1)^2[sin^2(pi*k/(2(n+1)))+sin^2(pi*l/(2(n+1)))]",
+  "normal_hessian_factor": "a_kl^2+lambda; a factor2 in the Hessian does not affect its condition number",
+  "low_modes": [
+    {
+      "k": 1,
+      "l": 1,
+      "transfer": 0.6305837217359501,
+      "normal_curvature": 0.39783583011836215
+    },
+    {
+      "k": 1,
+      "l": 2,
+      "transfer": 0.16552838079846185,
+      "normal_curvature": 0.027599644849760595
+    },
+    {
+      "k": 2,
+      "l": 1,
+      "transfer": 0.16552838079846185,
+      "normal_curvature": 0.027599644849760595
+    },
+    {
+      "k": 2,
+      "l": 2,
+      "transfer": -0.20422714635906639,
+      "normal_curvature": 0.041908727309967524
+    }
+  ],
+  "whole_grid_normal_condition_number": 4926.599003163517,
+  "methods": {
+    "neural_s0": {
+      "mean_relative_field_error_percent": 2.3313595147647264,
+      "bands": {
+        "attenuated_low_modes": {
+          "mean_squared_relative_error_contribution": 0.00020588553213079787,
+          "share_of_residual_energy": 0.33802814113112073
+        },
+        "other_low_modes": {
+          "mean_squared_relative_error_contribution": 5.248164838223074e-05,
+          "share_of_residual_energy": 0.04087840511589645
+        },
+        "outside_target_band": {
+          "mean_squared_relative_error_contribution": 0.00048039482631820693,
+          "share_of_residual_energy": 0.621093453752983
+        }
+      }
+    },
+    "neural_s1": {
+      "mean_relative_field_error_percent": 2.8021029474847157,
+      "bands": {
+        "attenuated_low_modes": {
+          "mean_squared_relative_error_contribution": 0.00043691843700873563,
+          "share_of_residual_energy": 0.32167905801391894
+        },
+        "other_low_modes": {
+          "mean_squared_relative_error_contribution": 0.00021886919811109687,
+          "share_of_residual_energy": 0.30662912655609154
+        },
+        "outside_target_band": {
+          "mean_squared_relative_error_contribution": 0.00045329421129219855,
+          "share_of_residual_energy": 0.37169181542998947
+        }
+      }
+    },
+    "neural_s2": {
+      "mean_relative_field_error_percent": 2.6320212289475244,
+      "bands": {
+        "attenuated_low_modes": {
+          "mean_squared_relative_error_contribution": 0.0004046133582890968,
+          "share_of_residual_energy": 0.42526588077063665
+        },
+        "other_low_modes": {
+          "mean_squared_relative_error_contribution": 0.00011011292469543254,
+          "share_of_residual_energy": 0.0663612537649764
+        },
+        "outside_target_band": {
+          "mean_squared_relative_error_contribution": 0.0004662991347699044,
+          "share_of_residual_energy": 0.508372865464387
+        }
+      }
+    },
+    "fista": {
+      "mean_relative_field_error_percent": 38.6934117079003,
+      "bands": {
+        "attenuated_low_modes": {
+          "mean_squared_relative_error_contribution": 0.23343409441845042,
+          "share_of_residual_energy": 0.9422031141397327
+        },
+        "other_low_modes": {
+          "mean_squared_relative_error_contribution": 0.0023478970471651345,
+          "share_of_residual_energy": 0.057796885786778815
+        },
+        "outside_target_band": {
+          "mean_squared_relative_error_contribution": 3.489617263233687e-12,
+          "share_of_residual_energy": 7.348831223167744e-11
+        }
+      }
+    }
+  }
+}

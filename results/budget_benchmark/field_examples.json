@@ -1,0 +1,32 @@
+[
+  {
+    "case": 48,
+    "rule": "contrast1.5,replicate0,all3target families,neural seed0",
+    "fista_steps": 4,
+    "errors_percent": [
+      14.441479674471903,
+      43.22678330419069,
+      7.99095368716847
+    ]
+  },
+  {
+    "case": 64,
+    "rule": "contrast1.5,replicate0,all3target families,neural seed0",
+    "fista_steps": 4,
+    "errors_percent": [
+      2.788638347780818,
+      16.205684145304268,
+      0.21264325015730368
+    ]
+  },
+  {
+    "case": 80,
+    "rule": "contrast1.5,replicate0,all3target families,neural seed0",
+    "fista_steps": 4,
+    "errors_percent": [
+      7.0416963980395435,
+      11.084300268874554,
+      0.12357849367221772
+    ]
+  }
+]

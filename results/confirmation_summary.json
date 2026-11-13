@@ -1,0 +1,258 @@
+{
+  "groups": {
+    "baseline": {
+      "known": {
+        "geometry": {
+          "seed_means": [
+            0.3072520989086575,
+            0.30767596205600545,
+            0.30821737556897705
+          ],
+          "mean": 0.3077151455112133,
+          "sample_sd": 0.00048382978940008514,
+          "seeds": [
+            0,
+            1,
+            2
+          ]
+        },
+        "reachable": {
+          "seed_means": [
+            0.08175224078197564,
+            0.08167461816416308,
+            0.08167149557001378
+          ],
+          "mean": 0.08169945150538417,
+          "sample_sd": 4.574350708946208e-05,
+          "seeds": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "unseen": {
+        "geometry": {
+          "seed_means": [
+            0.3056544906856254,
+            0.3066306516091858,
+            0.30690983439555763
+          ],
+          "mean": 0.3063983255634563,
+          "sample_sd": 0.0006591308680071416,
+          "seeds": [
+            0,
+            1,
+            2
+          ]
+        },
+        "reachable": {
+          "seed_means": [
+            0.08231144234389462,
+            0.08180815236210683,
+            0.08264763687326819
+          ],
+          "mean": 0.08225574385975655,
+          "sample_sd": 0.00042250479520523595,
+          "seeds": [
+            0,
+            1,
+            2
+          ]
+        }
+      }
+    },
+    "candidate": {
+      "known": {
+        "geometry": {
+          "seed_means": [
+            0.2527891828826324,
+            0.25344436564680484,
+            0.25348580418689326
+          ],
+          "mean": 0.25323978423877685,
+          "sample_sd": 0.0003907818762053331,
+          "seeds": [
+            0,
+            1,
+            2
+          ]
+        },
+        "reachable": {
+          "seed_means": [
+            0.04676817809721153,
+            0.04669539259292597,
+            0.047132046695270054
+          ],
+          "mean": 0.046865205795135846,
+          "sample_sd": 0.0002339390559458803,
+          "seeds": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "unseen": {
+        "geometry": {
+          "seed_means": [
+            0.25179168404986507,
+            0.2526114934096466,
+            0.2526891637908609
+          ],
+          "mean": 0.2523641137501242,
+          "sample_sd": 0.000497257471873037,
+          "seeds": [
+            0,
+            1,
+            2
+          ]
+        },
+        "reachable": {
+          "seed_means": [
+            0.047638595975384834,
+            0.04753241932330238,
+            0.04797998215709265
+          ],
+          "mean": 0.04771699915192662,
+          "sample_sd": 0.00023385554540458599,
+          "seeds": [
+            0,
+            1,
+            2
+          ]
+        }
+      }
+    }
+  },
+  "paired_vs_baseline": {
+    "candidate": {
+      "known": {
+        "geometry": {
+          "absolute_reductions": [
+            0.0544629160260251,
+            0.05423159640920061,
+            0.05473157138208379
+          ],
+          "relative_reductions": [
+            0.17725807641176206,
+            0.17626205195493616,
+            0.17757458118981106
+          ],
+          "all_three_seeds_improve": true
+        },
+        "reachable": {
+          "absolute_reductions": [
+            0.03498406268476411,
+            0.03497922557123711,
+            0.03453944887474373
+          ],
+          "relative_reductions": [
+            0.4279278751277633,
+            0.4282753486637686,
+            0.42290702078712894
+          ],
+          "all_three_seeds_improve": true
+        }
+      },
+      "unseen": {
+        "geometry": {
+          "absolute_reductions": [
+            0.05386280663576032,
+            0.054019158199539175,
+            0.05422067060469671
+          ],
+          "relative_reductions": [
+            0.1762212179999011,
+            0.1761701184015646,
+            0.17666644899627082
+          ],
+          "all_three_seeds_improve": true
+        },
+        "reachable": {
+          "absolute_reductions": [
+            0.034672846368509785,
+            0.03427573303880445,
+            0.03466765471617554
+          ],
+          "relative_reductions": [
+            0.4212396889322838,
+            0.41897698516756643,
+            0.4194633510131075
+          ],
+          "all_three_seeds_improve": true
+        }
+      }
+    }
+  },
+  "test_manifest_sha256": "5bdf31d2c9d8d5787173d28e67b27a84428a452168ea57f43c86ec7bf6ad84ea",
+  "seeds": 3,
+  "cases_per_split": 1024,
+  "definition": "Mean and sample standard deviation of per-seed mean relative terminal-field L2 error; no prediction ensembling",
+  "checkpoint_selection_used_test": false,
+  "test_driven_reselection_permitted": false,
+  "gpu": "NVIDIA L40S",
+  "network_latency_definition": "All locked models, same allocated GPU and cases; resident inputs, 20 warmups, 200 synchronized repeats; excludes compile, transfer and physics",
+  "network_latency": {
+    "baseline_s0": {
+      "1": {
+        "median_ms": 0.9494204859947786,
+        "p90_ms": 1.0098276165081188
+      },
+      "16": {
+        "median_ms": 1.1505510046845302,
+        "p90_ms": 1.2056079867761582
+      }
+    },
+    "candidate_s0": {
+      "1": {
+        "median_ms": 2.283110487041995,
+        "p90_ms": 2.363839215831831
+      },
+      "16": {
+        "median_ms": 5.525277505512349,
+        "p90_ms": 5.602174322120845
+      }
+    },
+    "baseline_s1": {
+      "1": {
+        "median_ms": 0.9513190016150475,
+        "p90_ms": 1.0019284032750875
+      },
+      "16": {
+        "median_ms": 1.1568610061658546,
+        "p90_ms": 1.2120441941078752
+      }
+    },
+    "candidate_s1": {
+      "1": {
+        "median_ms": 2.2780979925300926,
+        "p90_ms": 2.3663153988309205
+      },
+      "16": {
+        "median_ms": 5.527544999495149,
+        "p90_ms": 5.614670080831274
+      }
+    },
+    "baseline_s2": {
+      "1": {
+        "median_ms": 0.9425160096725449,
+        "p90_ms": 0.9965121105778962
+      },
+      "16": {
+        "median_ms": 1.1517535021994263,
+        "p90_ms": 1.2015222921036184
+      }
+    },
+    "candidate_s2": {
+      "1": {
+        "median_ms": 2.301158499903977,
+        "p90_ms": 2.3720651777694
+      },
+      "16": {
+        "median_ms": 5.595829512458295,
+        "p90_ms": 5.662537008174695
+      }
+    }
+  }
+}

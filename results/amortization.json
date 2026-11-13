@@ -1,0 +1,18 @@
+{
+  "training_optimizer_s": 2173.0617691134976,
+  "training_scope": "mean cost of one paired symmetrized run on A40, not sum over three seeds",
+  "neural_query_ms": 3.2647065090714023,
+  "neural_error_percent": 12.087428545597263,
+  "baselines": {
+    "backtracking_16": {
+      "query_ms": 18.66210300795501,
+      "error_percent": 12.176578282212247,
+      "break_even_queries": 141131.76661204093
+    },
+    "cached_dense_32": {
+      "query_ms": 7.943969503685366,
+      "error_percent": 9.646258855581948,
+      "break_even_queries": 464402.5718611641
+    }
+  }
+}

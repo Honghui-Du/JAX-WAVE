@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use JAX-WAVE, please cite the accompanying paper."
+type: software
+title: JAX-WAVE
+authors:
+  - family-names: Du
+    given-names: Honghui
+  - family-names: Guo
+    given-names: Binyao
+  - family-names: Pan
+    given-names: Yushu
+repository-code: "https://github.com/Honghui-Du/JAX-WAVE"
+url: "https://github.com/Honghui-Du/JAX-WAVE"
+license: MIT
+abstract: >-
+  JAX-WAVE learns a shared inverse map from target wave fields and known
+  heterogeneous wave-speed maps to bounded initial pressures, using
+  differentiable propagation and exact target-sign symmetry.
+keywords:
+  - inverse wave design
+  - initial-pressure design
+  - amortized inverse design
+  - differentiable simulation
+  - heterogeneous media
+  - sign symmetry
+preferred-citation:
+  type: unpublished
+  title: "JAX-WAVE: A Differentiable Physics-Supervised Framework for Inverse Wave Design in Heterogeneous Media"
+  authors:
+    - family-names: Du
+      given-names: Honghui
+    - family-names: Guo
+      given-names: Binyao
+    - family-names: Pan
+      given-names: Yushu
+  year: 2026
+  doi: "10.48550/arXiv.2611.13826"
+  url: "https://arxiv.org/abs/2611.13826"
